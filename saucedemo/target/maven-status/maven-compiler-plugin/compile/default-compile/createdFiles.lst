@@ -1,0 +1,6 @@
+pages\confirmationOrderPage.class
+pages\reviewOrderPage.class
+pages\cartPage.class
+pages\listingPage.class
+pages\loginPage.class
+pages\addressPage.class

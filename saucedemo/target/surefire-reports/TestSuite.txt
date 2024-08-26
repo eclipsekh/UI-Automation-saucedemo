@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 6, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 35.061 s <<< FAILURE! - in TestSuite
+MyTests.demoTest.sauceTest[locked_out_user,secret_sauce](2)  Time elapsed: 0.297 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.saucedemo.com/inventory.html] but found [https://www.saucedemo.com/]
+	at MyTests.demoTest.sauceTest(demoTest.java:59)
+
+MyTests.demoTest.sauceTest[problem_user,secret_sauce](3)  Time elapsed: 1.032 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.saucedemo.com/checkout-step-two.html] but found [https://www.saucedemo.com/checkout-step-one.html]
+	at MyTests.demoTest.sauceTest(demoTest.java:80)
+
+MyTests.demoTest.sauceTest[error_user,secret_sauce](5)  Time elapsed: 1.134 s  <<< FAILURE!
+java.lang.AssertionError: expected [https://www.saucedemo.com/checkout-complete.html] but found [https://www.saucedemo.com/checkout-step-two.html]
+	at MyTests.demoTest.sauceTest(demoTest.java:84)
+
