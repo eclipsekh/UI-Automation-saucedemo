@@ -42,7 +42,11 @@ This project uses the following dependencies:
 
 #### 1. By Command line
 1. Navigate to the project directory using command line.
-2. Run the following command mvn clean test
+2. Run the following command
+```
+ mvn clean test
+
+```
 
 #### 2. By Batchfile
 1. Navigate to the project directory
