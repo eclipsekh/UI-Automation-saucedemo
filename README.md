@@ -21,12 +21,12 @@ This project uses the following dependencies:
 
 ### 🛠️ Installation
 1. Clone this repository to your local machine.   
-   ```sh
-   git clone https://github.com/eclipsekh/UI-Automation-saucedemo.git
+   ```
+   git clone https://github.com/eclipsekh/UI-Automation-saucedemo.git 
    ```
 2. Navigate to the project directory using the command line.
 3. Install the dependencies and run the smoke test plan (configured).   
-   ```sh
+   ```
    mvn clean install
    ```
 
