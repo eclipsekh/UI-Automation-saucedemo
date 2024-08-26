@@ -25,7 +25,7 @@ This project uses the following dependencies:
    git clone https://github.com/eclipsekh/UI-Automation-saucedemo.git 
    ```
 2. Navigate to the project directory using the command line.
-3. Install the dependencies and run the smoke test plan (configured).   
+3. Install the dependencies.   
    ```
    mvn clean install
    ```
@@ -47,11 +47,4 @@ This project uses the following dependencies:
 #### 2. By Batchfile
 1. Navigate to the project directory
 2. Click on file BatchFileTest
-
-
-#### 2. By Jenknis
-1. Install jenkins
-2. Run jenkins server
-3. Create new job
-4. In General >> Source code mangement >> Select git
-5. In Repository URL put the following https://github.com/eclipsekh/UI-Automation-saucedemo.git
+   
